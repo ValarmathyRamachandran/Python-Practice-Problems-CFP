@@ -1,4 +1,4 @@
-def countCurrency(amount):
+def count_currency(amount):
     """
     :param amount: amount  in rs
     :return: minimum number of notes and number of notes
@@ -22,7 +22,8 @@ def countCurrency(amount):
     print("minimun number of Notes: ", totalNotes)
 
 
-def test_notes():
-    assert countCurrency(2800) == 5
+if __name__ == "__main__":
+    count_currency(2500)
+
 
 
