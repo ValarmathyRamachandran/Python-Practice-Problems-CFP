@@ -18,6 +18,7 @@ def count_currency(amount):
             amount = amount - number_of_notes * note
             print(note, " : ", number_of_notes)
             totalNotes += number_of_notes
+            return totalNotes
 
     print("minimun number of Notes: ", totalNotes)
 

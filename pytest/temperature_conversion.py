@@ -10,8 +10,7 @@ def temperature_conversion_celsius(celsius):
     celsius_to_fahrenheit = (celsius * 1.8) + 32
 
     # print the result
-    print('The %.2f degree Celsius is equal to: %.2f Fahrenheit'
-          % (celsius, celsius_to_fahrenheit))
+    return celsius_to_fahrenheit
 
 
 def temperature_conversion_fahrenheit(fahrenheit):

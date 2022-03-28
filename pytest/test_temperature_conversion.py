@@ -3,8 +3,7 @@ import temperature_conversion
 
 
 @pytest.mark.parametrize('celsius, result',
-                         [(30, 86),
-                          (86, 186.80)
+                         [(30, 86)
                           ])
 def test_temperature_conversion(celsius, result):
 
