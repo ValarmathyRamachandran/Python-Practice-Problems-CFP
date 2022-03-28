@@ -24,7 +24,7 @@ def count_currency(amount):
 
 
 if __name__ == "__main__":
-    count_currency(2500)
+    count_currency(3500)
 
 
 

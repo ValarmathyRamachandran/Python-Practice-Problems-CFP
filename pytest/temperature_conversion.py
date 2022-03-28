@@ -14,15 +14,11 @@ def temperature_conversion_celsius(celsius):
 
 
 def temperature_conversion_fahrenheit(fahrenheit):
-    #fahrenheit = float(input("Temperature value in degree Fahrenheit: "))
 
     # For Converting the temperature from degree Fahrenheit to degree Celsius
     # by using the above given formula
     fahrenheit_to_celsius = (fahrenheit - 32) / 1.8
 
-    # Print the result
-    #print('The %.2f degree Fahrenheit is equal to: %.2f Celsius'
-          #% (fahrenheit, fahrenheit_to_celsius))
     return fahrenheit_to_celsius
 
 

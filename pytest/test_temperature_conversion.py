@@ -2,9 +2,9 @@ import pytest
 import temperature_conversion
 
 
-@pytest.mark.parametrize('celsius, result',
-                         [(30, 86)
-                          ])
-def test_temperature_conversion(celsius, result):
+def test_temperature_conversion():
+    assert temperature_conversion.temperature_conversion_celsius(30) == 86
 
-    assert temperature_conversion.temperature_conversion_celsius(30) == result
+
+def test_temperature_conversion2():
+    assert temperature_conversion.temperature_conversion_fahrenheit(86) == 30
